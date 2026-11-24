@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BiegPlan – indywidualny plan na półmaraton (projekt edukacyjny)</title>
+  <meta name="description" content="Demonstracyjny landing page projektu studenckiego: 12-tygodniowy plan przygotowania do półmaratonu z tempami z Twojego wyniku i 30-minutową konsultacją. Formularz nie wysyła danych.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Miejsce na Google Tag Manager i CMP (spotkanie 3). Nie wstawiać GA4 osobno. -->
+</head>
+<body>
+
+  <a class="skip-link" href="#lead-form">Przejdź do formularza</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="logo">BiegPlan</span>
+      <span class="demo-badge">Projekt edukacyjny · strona demonstracyjna</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 id="hero-title">Plan na nową życiówkę w półmaratonie, ułożony pod Twoje tempo i Twój tydzień</h1>
+          <p class="hero-lead">Dla biegaczy, którzy trenują 3–4 razy w tygodniu i mają półmaraton w okolicach 1:45–1:55. Tempa liczymy z Twojego ostatniego wyniku, a na start rozmawiamy przez 30 minut.</p>
+          <a class="btn btn-primary" id="cta-hero" data-cta-location="hero" href="#lead-form">Umów bezpłatną konsultację</a>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/hero.jpg" alt="Biegacz na asfaltowej drodze w ciągu dnia" width="800" height="1000">
+        </figure>
+      </div>
+    </section>
+
+    <!-- OFERTA (sekcja mierzona: section_view, section_id = oferta) -->
+    <section class="section" id="oferta" aria-labelledby="oferta-title">
+      <div class="container">
+        <h2 id="oferta-title">Co dostajesz</h2>
+        <ul class="offer-grid">
+          <li class="offer-card">
+            <h3>Plan na 12 tygodni</h3>
+            <p>Rozpisany tydzień po tygodniu, aż do dnia startu.</p>
+          </li>
+          <li class="offer-card">
+            <h3>Tempa z Twojego wyniku</h3>
+            <p>W każdy dzień treningowy wiesz, jak szybko biec, zamiast zgadywać.</p>
+          </li>
+          <li class="offer-card">
+            <h3>Konsultacja 30 min</h3>
+            <p>Rozmowa wideo na start: Twoje treningi, wynik i wolne dni.</p>
+          </li>
+          <li class="offer-card">
+            <h3>Korekta po 6 tygodniach</h3>
+            <p>Plan zmienia się, gdy zmienia się Twoja forma albo kalendarz.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GOTOWY PLAN A BIEGPLAN (odpowiedź na obiekcję) -->
+    <section class="section section-alt" id="porownanie" aria-labelledby="porownanie-title">
+      <div class="container">
+        <h2 id="porownanie-title">Darmowy plan z internetu wystarczy?</h2>
+        <p class="section-lead">Gotowy plan nie zna Twojego wyniku ani tego, które dni masz wolne. Jeśli tempa są za szybkie, rośnie ryzyko przeciążenia, a jeśli za wolne, wynik stoi w miejscu.</p>
+        <div class="compare">
+          <div class="compare-col">
+            <h3>Gotowy plan</h3>
+            <ul>
+              <li>Tempa dla „przeciętnego” biegacza</li>
+              <li>Stała liczba dni treningowych</li>
+              <li>Ten sam plan do końca</li>
+              <li>Bez rozmowy o Twoich treningach</li>
+            </ul>
+          </div>
+          <div class="compare-col compare-col-ours">
+            <h3>BiegPlan</h3>
+            <ul>
+              <li>Tempa z Twojego ostatniego wyniku</li>
+              <li>3, 4 albo 5 dni – tyle, ile masz</li>
+              <li>Korekta po 6 tygodniach</li>
+              <li>30 minut rozmowy na start</li>
+            </ul>
+          </div>
+        </div>
+        <a class="btn btn-primary" id="cta-porownanie" data-cta-location="porownanie" href="#lead-form">Umów bezpłatną konsultację</a>
+      </div>
+    </section>
+
+    <!-- JAK TO DZIAŁA + PRZYKŁADOWY TYDZIEŃ -->
+    <section class="section" id="jak-to-dziala" aria-labelledby="jak-title">
+      <div class="container">
+        <h2 id="jak-title">Jak to działa</h2>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Zgłoszenie</h3>
+            <p>Podajesz swój wynik i liczbę dni na trening.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Konsultacja</h3>
+            <p>30 minut rozmowy wideo o Twoich treningach i celu.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Plan na 12 tygodni</h3>
+            <p>Dostajesz plan z tempami, a po 6 tygodniach jego korektę.</p>
+          </li>
+        </ol>
+
+        <div class="week">
+          <h3>Przykładowy tydzień</h3>
+          <p class="week-note">To przykład dla osoby z wynikiem około 1:50 i 4 dniami treningowymi. Nie jest to plan treningowy – Twój plan zależy od Twojego wyniku.</p>
+          <div class="table-wrap">
+            <table>
+              <caption class="visually-hidden">Przykładowy tydzień treningowy</caption>
+              <thead>
+                <tr><th scope="col">Dzień</th><th scope="col">Trening</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Pon</th><td>Odpoczynek</td></tr>
+                <tr><th scope="row">Wt</th><td>Interwały: 6 × 800 m, przerwy w truchcie</td></tr>
+                <tr><th scope="row">Śr</th><td>Odpoczynek</td></tr>
+                <tr><th scope="row">Czw</th><td>Spokojny bieg, 8 km</td></tr>
+                <tr><th scope="row">Pt</th><td>Odpoczynek</td></tr>
+                <tr><th scope="row">Sob</th><td>Bieg w tempie startowym, 6 km w środku treningu</td></tr>
+                <tr><th scope="row">Nd</th><td>Długie wybieganie, 16 km spokojnie</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <h2 id="faq-title">Częste pytania</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Ile to kosztuje?</summary>
+            <p>Cenę planu omawiamy na bezpłatnej konsultacji, gdy wiemy już, czego potrzebujesz. Ta strona jest demonstracją projektu studenckiego, więc oferta nie jest sprzedawana.</p>
+          </details>
+          <details>
+            <summary>Co, jeśli mam kontuzję albo coś mnie boli?</summary>
+            <p>Plan nie zastępuje lekarza ani fizjoterapeuty. Przy bólu lub kontuzji najpierw skonsultuj się ze specjalistą, a plan ułożymy z uwzględnieniem jego zaleceń.</p>
+          </details>
+          <details>
+            <summary>Co, jeśli wypadnie mi tydzień treningów?</summary>
+            <p>Po 6 tygodniach robimy korektę planu. Wtedy dopasowujemy go do tego, co udało się zrobić, i do Twojego kalendarza.</p>
+          </details>
+          <details>
+            <summary>Jak wygląda konsultacja?</summary>
+            <p>To 30 minut rozmowy wideo. Rozmawiamy o Twoich ostatnich treningach, wyniku, celu i dniach, które masz na bieganie.</p>
+          </details>
+        </div>
+        <a class="btn btn-primary" id="cta-faq" data-cta-location="faq" href="#lead-form">Umów bezpłatną konsultację</a>
+      </div>
+    </section>
+
+    <!-- FORMULARZ -->
+    <section class="section" id="formularz" aria-labelledby="form-title">
+      <div class="container form-container">
+        <h2 id="form-title">Umów bezpłatną konsultację</h2>
+        <p class="section-lead">Podaj swój wynik i liczbę dni na trening, a przygotujemy rozmowę pod Ciebie.</p>
+        <p class="demo-note"><strong>To strona demonstracyjna projektu studenckiego:</strong> formularz nie wysyła danych. Używaj danych fikcyjnych, np. test@example.com.</p>
+
+        <!-- Pola nie mają atrybutu name, więc nawet bez JavaScriptu ich treść nie trafi do adresu URL. -->
+        <form id="lead-form" novalidate>
+          <p class="required-legend"><span aria-hidden="true">*</span> pole wymagane</p>
+
+          <div class="field">
+            <label for="email">E-mail <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" autocomplete="off" required aria-describedby="email-hint email-error" placeholder="test@example.com">
+            <p class="hint" id="email-hint">Użyj fikcyjnego adresu.</p>
+            <p class="error" id="email-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="rekord">Twój rekord w półmaratonie <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="rekord" autocomplete="off" required aria-describedby="rekord-hint rekord-error" placeholder="1:52:30">
+            <p class="hint" id="rekord-hint">Format g:mm:ss, np. 1:52:30.</p>
+            <p class="error" id="rekord-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="dni">Ile dni w tygodniu możesz trenować? <span class="req" aria-hidden="true">*</span></label>
+            <select id="dni" required aria-describedby="dni-error">
+              <option value="">Wybierz</option>
+              <option value="3">3 dni</option>
+              <option value="4">4 dni</option>
+              <option value="5">5 dni</option>
+            </select>
+            <p class="error" id="dni-error" hidden></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit" id="lead-submit">Wyślij zgłoszenie (demo)</button>
+
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>BiegPlan to projekt edukacyjny</strong> przygotowany na zajęcia „Analityka aplikacji webowych” (AGH). Oferta jest fikcyjna, a formularz jest demonstracją i nie wysyła danych.</p>
+      <p>Na tej stronie, po wyrażeniu zgody, używamy narzędzi pomiarowych: Google Analytics 4 (przez Google Tag Manager), Meta Pixel i Microsoft Clarity.
+        <a href="#" id="consent-settings">Zmień ustawienia zgód</a></p>
+      <p class="credits">Zdjęcie: <a href="https://unsplash.com/photos/person-running-on-road-at-daytime-QVD3Xht9txA" target="_blank" rel="noopener">Andrea Leopardi / Unsplash</a> (licencja Unsplash).</p>
+      <p class="credits">Autorzy: Witold Sierdziński, Celina Zarzycka.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
